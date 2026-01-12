@@ -54,28 +54,6 @@ export default function GuidesModal({ onClose }: GuidesModalProps) {
               <div className="flex gap-3">
                 <CheckCircle2 className="w-5 h-5 text-foreground/60 flex-shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Session Lock Feature</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Once you download your assignment file, your session will be locked to your roll number. You won't
-                    be able to select a different roll number or access other files.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex gap-3">
-                <CheckCircle2 className="w-5 h-5 text-foreground/60 flex-shrink-0 mt-0.5" />
-                <div>
-                  <h3 className="font-semibold text-foreground mb-1">Second Chance Available</h3>
-                  <p className="text-sm text-muted-foreground">
-                    If you accidentally download the wrong roll number, you can reset your selection using the "Request
-                    a second chance?" link that will appear after your first download.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex gap-3">
-                <CheckCircle2 className="w-5 h-5 text-foreground/60 flex-shrink-0 mt-0.5" />
-                <div>
                   <h3 className="font-semibold text-foreground mb-1">Submission Format</h3>
                   <p className="text-sm text-muted-foreground">
                     Once downloaded, you must print the assignment file and submit it in a spiral-bound format to your
