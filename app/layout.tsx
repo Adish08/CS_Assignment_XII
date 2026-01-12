@@ -13,9 +13,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Student Project File Distribution",
-  description: "Download your assigned project files based on your roll number",
-  generator: "v0.app",
+  title: "CS Assignment XII | Student Portal",
+  description: "Secure and organized distribution of Computer Science assignments for Class XII students.",
   icons: {
     icon: [
       {
@@ -32,6 +31,28 @@ export const metadata: Metadata = {
       },
     ],
     apple: "/apple-icon.png",
+  },
+  openGraph: {
+    title: "CS Assignment XII | Student Portal",
+    description: "Secure and organized distribution of Computer Science assignments for Class XII students.",
+    url: "https://cs-assignment-xii.vercel.app",
+    siteName: "CS Assignment Portal",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "CS Assignment XII Portal Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CS Assignment XII | Student Portal",
+    description: "Secure and organized distribution of Computer Science assignments for Class XII students.",
+    images: ["/opengraph-image.png"],
   },
 }
 
